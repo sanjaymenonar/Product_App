@@ -9,9 +9,7 @@
     "start-dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon app.js",
     "client": "cd client && npm start"
-
   },
-
   "author": "Sanjay Menon A R",
   "license": "ISC",
   "dependencies": {
@@ -28,6 +26,4 @@
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
-
-  
 }
